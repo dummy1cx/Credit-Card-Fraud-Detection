@@ -1,0 +1,13 @@
+prefix=/Users/abhishekdas/Documents/INM 702 Project 01/venv
+exec_prefix=/Users/abhishekdas/Documents/INM 702 Project 01/venv
+libdir=/Users/abhishekdas/Documents/INM 702 Project 01/venv/lib
+sharedlibdir=/Users/abhishekdas/Documents/INM 702 Project 01/venv/lib
+includedir=/Users/abhishekdas/Documents/INM 702 Project 01/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

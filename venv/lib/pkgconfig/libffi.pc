@@ -1,0 +1,11 @@
+prefix=/Users/abhishekdas/Documents/INM 702 Project 01/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/abhishekdas/Documents/INM 702 Project 01/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
